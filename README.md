@@ -1,6 +1,10 @@
 # Checkov Pre-Commit Hook
 
-Git hook to validate IaC security with Checkov + OPA.
+~ Git hook to validate IaC security with Checkov + OPA ~
 
-./hooks/install-hooks.sh  # Install the hook
-git commit -m "bla bla bla"      # Trigger validation
+Usage:
+
+./hooks/install-hooks.sh 
+git commit -m "test" 
+
+<img src="assets/how-to.png" alt="how-to">
